@@ -8,5 +8,14 @@ return {
 	cmd = 'Neotree',
 	init = function()
 		vim.g.neo_tree_remove_legacy_commands = 1
-	end
+	end,
+	opts = {
+		filesystem = {
+			filtered_items = {
+				visible = true,
+				hide_dotfiles = false,
+				hide_gitignored = true,
+			}
+		}
+	}
 }
