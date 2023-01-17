@@ -8,8 +8,8 @@ local mappings = {
     ['<Right>'] = '<Nop>',
     
      -- Move lines up and down with alt
-    ['<m-j>'] = '<Esc>:m .+1<cr>==gi',
-    ['<m-k>'] = '<Esc>:m .-2<cr>==gi', 
+    ['<A-j>'] = '<Esc>:m .+1<cr>==gi',
+    ['<A-k>'] = '<Esc>:m .-2<cr>==gi', 
    
   },
 
@@ -24,8 +24,8 @@ local mappings = {
     ['<Right>'] = '<Nop>',
 
     -- Move lines up and down with alt
-    ['<m-j>'] = '<Esc>:m .+1<cr>==g<Esc>',
-    ['<m-k>'] = '<Esc>:m .-2<cr>==g<Esc>', 
+    ['<A-j>'] = ':m .+1<cr>==g<Esc>',
+    ['<A-k>'] = ':m .-2<cr>==g<Esc>', 
  
     -- Pane navigation
     ['<C-h>'] = '<C-w>h',
@@ -53,11 +53,21 @@ local mappings = {
     -- TODO: revisit this at some point?
     ['<Esc>'] = '<C-\\><C-n>',
 
-    -- Terminal window navigation
+    -- I keep pressing Shift-space by accident :(
+    ['<S-Space>'] = '<Space>',
+
+    -- Pane navigation from terminal
     ['<C-h>'] = '<C-\\><C-n><C-w>h',
     ['<C-j>'] = '<C-\\><C-n><C-w>j',
     ['<C-k>'] = '<C-\\><C-n><C-w>k',
     ['<C-l>'] = '<C-\\><C-n><C-w>l',
+
+  },
+
+  visual = {
+    -- Move blocks up and down with alt
+    ['<A-j>'] = [[:m '>+1<cr>gv=gv]],
+    ['<A-k>'] = [[:m '<-2<cr>gv=gv]], 
 
   }
 
