@@ -39,6 +39,13 @@ local mappings = {
     -- Toggleterm
     ['<leader>`'] = [[:ToggleTerm dir=git_dir size=10 direction=horizontal<cr>]],
     ['<leader>~'] = [[:ToggleTerm dir=git_dir direction=float<cr>]],
+
+    -- Telescope
+    ['<leader>ff'] = require('telescope.builtin').find_files,
+    ['<leader>fs'] = require('telescope.builtin').live_grep,
+    ['<leader>fb'] = require('telescope.builtin').buffers,
+    ['<leader>fh'] = require('telescope.builtin').help_tags,
+    
 	}, 
 
   terminal = {
