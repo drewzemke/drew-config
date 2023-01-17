@@ -1,9 +1,32 @@
 local mappings = {
 
+  insert = {
+    -- No arrow keys allowed, gotta practice!
+    ['<Up>'] = '<Nop>',
+    ['<Down>'] = '<Nop>',
+    ['<Left>'] = '<Nop>',
+    ['<Right>'] = '<Nop>',
+    
+     -- Move lines up and down with alt
+    ['<m-j>'] = '<Esc>:m .+1<cr>==gi',
+    ['<m-k>'] = '<Esc>:m .-2<cr>==gi', 
+   
+  },
+
 	normal = {
 		-- Use semicolon instead of colon for command mode
 		[';'] = ':',
 
+     -- No arrow keys allowed, gotta practice!
+    ['<Up>'] = '<Nop>',
+    ['<Down>'] = '<Nop>',
+    ['<Left>'] = '<Nop>',
+    ['<Right>'] = '<Nop>',
+
+    -- Move lines up and down with alt
+    ['<m-j>'] = '<Esc>:m .+1<cr>==g<Esc>',
+    ['<m-k>'] = '<Esc>:m .-2<cr>==g<Esc>', 
+ 
     -- Pane navigation
     ['<C-h>'] = '<C-w>h',
     ['<C-j>'] = '<C-w>j',
