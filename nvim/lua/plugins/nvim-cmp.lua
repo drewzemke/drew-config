@@ -60,8 +60,6 @@ return {
         { name = 'luasnip' },
       },
     })
-
-
   end
 
 }
