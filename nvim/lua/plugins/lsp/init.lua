@@ -8,7 +8,7 @@ return {
     'hrsh7th/cmp-nvim-lsp',
   },
 
-  config = function ()
+  config = function()
     -- TODO : Diagnostic setup
 
     local capabilities = vim.lsp.protocol.make_client_capabilities()
@@ -24,7 +24,7 @@ return {
       }
     }
 
-    
+
     for server, opts in pairs(require('plugins.lsp.servers')) do
       opts = vim.tbl_deep_extend('force', {}, options, opts or {})
       require('lspconfig')[server].setup(opts)

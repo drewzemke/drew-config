@@ -1,9 +1,9 @@
 local M = {}
 
 local mode_sign = {
-	insert = 'i',
-	normal = 'n',
-	visual = 'v',
+  insert = 'i',
+  normal = 'n',
+  visual = 'v',
   terminal = 't',
 }
 
@@ -15,10 +15,10 @@ function M.load(mappings)
       if type(value) == "table" then
         options = value[2]
         value = value[1]
-       end
+      end
 
       options = vim.tbl_extend("force", { silent = true }, options)
-      vim.keymap.set(mode_sign[mode], key, value, {silent=true})
+      vim.keymap.set(mode_sign[mode], key, value, { silent = true })
     end
   end
 end

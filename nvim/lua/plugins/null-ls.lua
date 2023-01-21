@@ -1,7 +1,7 @@
 return {
   'jose-elias-alvarez/null-ls.nvim',
 
-  config = function ()
+  config = function()
     require('null-ls').setup()
   end
 }

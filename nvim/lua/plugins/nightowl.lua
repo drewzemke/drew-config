@@ -1,8 +1,8 @@
 return {
-	'Julpikar/night-owl.nvim',
-	lazy = false,
-	priority = 1000,
-	config = function() 
-		vim.cmd([[colorscheme night-owl]])
-	end
+  'Julpikar/night-owl.nvim',
+  lazy = false,
+  priority = 1000,
+  config = function()
+    vim.cmd([[colorscheme night-owl]])
+  end
 }
