@@ -18,6 +18,9 @@ local mappings = {
   },
 
   normal = {
+    -- Escape clears search highlight
+    ['<Esc>'] = ':noh<cr>',
+
     -- Use semicolon instead of colon for command mode
     [';'] = ':',
 

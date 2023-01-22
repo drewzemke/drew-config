@@ -27,3 +27,5 @@ opt.tabstop = 2 -- Number of spaces tabs count as ??
 -- [[ Splits ]]
 opt.splitright = true -- Place new window to the right of current
 opt.splitbelow = true -- Place new window below current
+
+opt.termguicolors = true
