@@ -1,5 +1,5 @@
 soon
-- treesitter
++ treesitter
 - lspsaga? (figure out what that is)
 - diagnostics
 - autocommand loader (like keymap loader)
