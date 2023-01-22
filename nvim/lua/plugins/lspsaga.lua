@@ -1,13 +1,17 @@
 return {
   'glepnir/lspsaga.nvim',
 
+  event = 'BufRead',
+
   dependencies = {
     'nvim-tree/nvim-web-devicons',
   },
 
   config = function()
     require('lspsaga').setup({
-
+      ui = {
+        border = 'single',
+      },
     })
 
     local lspsaga_keymaps = {

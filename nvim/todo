@@ -1,6 +1,12 @@
-soon
+-----------
+   SOON
+-----------
 + treesitter
-- lspsaga? (figure out what that is)
+
+- lspsaga? or something else that does the following
+  - show definitions/references
+  - code actions
+
 - diagnostics
 - autocommand loader (like keymap loader)
 
@@ -9,8 +15,11 @@ soon
   + jump to end of line in insert mode
   - insert new line in normal mode
   - better exiting of terminal
-- automatic tabbing in editor
+
 - tabs for buffers
 
-eventually
+
+------------
+ EVENTUALLY
+------------
 - neotest
