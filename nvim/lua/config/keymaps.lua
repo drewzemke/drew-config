@@ -40,8 +40,8 @@ local mappings = {
     ['<C-k>'] = '<C-w>k',
     ['<C-l>'] = '<C-w>l',
 
-    -- Neotree
-    ['<leader>e'] = ':Neotree<cr>',
+    -- NvimTree
+    ['<leader>e'] = ':NvimTreeToggle<cr>',
 
     -- Toggleterm
     ['<leader>`'] = [[:ToggleTerm dir=git_dir size=10 direction=horizontal<cr>]],

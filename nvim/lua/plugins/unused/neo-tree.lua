@@ -3,7 +3,7 @@ return {
   dependencies = {
     'MunifTanjim/nui.nvim',
     'nvim-lua/plenary.nvim',
-    'kyazdani42/nvim-web-devicons'
+    'nvim-tree/nvim-web-devicons'
   },
   cmd = 'Neotree',
   init = function()
