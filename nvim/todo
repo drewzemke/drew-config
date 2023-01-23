@@ -3,11 +3,11 @@
 -----------
 + treesitter
 
-- lspsaga? or something else that does the following
-  - show definitions/references
-  - code actions
++ lspsaga? or something else that does the following
+  + show definitions/references
+  + code actions
 
-- diagnostics
++ diagnostics
 - autocommand loader? (like keymap loader)
 
 - keymaps

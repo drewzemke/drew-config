@@ -1,5 +1,8 @@
 return {
-  tsserver = {},
+  tsserver = {
+    -- TODO : bind organize imports command to :OrganizeImports
+    -- see https://www.reddit.com/r/neovim/comments/lwz8l7/how_to_use_tsservers_organize_imports_with_nvim/
+  },
 
   sumneko_lua = {
     settings = {
