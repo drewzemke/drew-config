@@ -53,8 +53,17 @@ local mappings = {
     ['<C-k>'] = '<C-w>k',
     ['<C-l>'] = '<C-w>l',
 
+    -- Rebind jumplist navigation to [ and ]
+    ['<C-]>'] = '<C-i>',
+    ['<C-[>'] = '<C-o>',
+    ['<C-i>'] = '<Nop>',
+    ['<C-o>'] = '<Nop>',
+
     -- Ctrl-W to close a pane
-    ['<C-w>'] = '<Cmd>wq<cr>',
+    ['<C-w>'] = '<Cmd>q<cr>',
+
+    -- Ctrl-q to gtfo
+    ['<C-q>'] = '<Cmd>qa<cr>',
 
     -- NvimTree
     ['<leader>e'] = ':NvimTreeToggle<cr>',

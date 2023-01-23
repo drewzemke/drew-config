@@ -36,5 +36,6 @@ return function(client, bufnr)
   }
 
   -- Setup keymaps with util
-  require('utils.keymap-loader').load(keymaps)
+  -- HACK : currently disabling this while I play with other plugins...
+  -- require('utils.keymap-loader').load(keymaps)
 end

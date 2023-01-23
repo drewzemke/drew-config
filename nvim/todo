@@ -8,13 +8,13 @@
   - code actions
 
 - diagnostics
-- autocommand loader (like keymap loader)
+- autocommand loader? (like keymap loader)
 
 - keymaps
   - more lasagna functions
   + jump to end of line in insert mode
-  - insert new line in normal mode
-  - better exiting of terminal
+  + insert new line in normal mode
+  + better exiting of terminal
 
 - tabs for buffers
 
