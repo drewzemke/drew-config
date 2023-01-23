@@ -27,6 +27,10 @@ return {
 
         highlight_git = true,
         highlight_modified = 'name',
+      },
+
+      update_focused_file = {
+        enable = true,
       }
     })
 
