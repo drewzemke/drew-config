@@ -12,8 +12,8 @@ return {
           types = 'italic,bold'
         }
       },
-
-      vim.cmd('colorscheme nightfox')
     })
-  end
+    vim.cmd('colorscheme nightfox')
+
+  end,
 }

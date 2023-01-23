@@ -24,6 +24,7 @@ return {
         'markdown',
         'tsx',
         'typescript',
+        'vim',
         'yaml',
       },
 

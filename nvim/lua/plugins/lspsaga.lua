@@ -17,6 +17,7 @@ return {
     -- HACK : This is to get the color scheme to load correct for Lspsaga popups...
     --        There's gotta be a better way ._.
     vim.cmd('colorscheme nightfox')
+    vim.api.nvim_set_hl(0, 'Beacon', { bg = "#ffffff" })
 
     local lspsaga_keymaps = {
       normal = {
