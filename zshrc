@@ -108,5 +108,13 @@ source $ZSH/oh-my-zsh.sh
 # git aliases
 alias gs='git status'
 
+# pnpm aliases
+alias p='pnpm'
+alias pst='pnpm start'
+alias pv='pnpm verify'
+alias pc='pnpm codegen'
+alias pint='pnpm test-integrated'
+alias piso='pnpm test-isolated'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
