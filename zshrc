@@ -77,6 +77,10 @@ plugins=(
   # run this first:
   # git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   zsh-autosuggestions
+  
+  # run this first:
+  # git clone https://github.com/z-shell/F-Sy-H.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/F-Sy-H
+  F-Sy-H
 
 )
 
